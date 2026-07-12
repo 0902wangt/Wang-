@@ -1,4 +1,4 @@
-# 🧪 测试记录
+---
 
 ## 测试环境
 
@@ -10,6 +10,10 @@
 | Python 版本 | 3.13.1 |
 | Shell | git-bash (MSYS2) |
 | 测试日期 | 2026-07-12 |
+
+> 📸 **所有测试执行日志见** [`screenshots/execution_log.txt`](screenshots/execution_log.txt)
+> 💻 **BMR 脚本执行日志见** [`screenshots/test09_bmr_script.log`](screenshots/test09_bmr_script.log)
+> 🎨 **HTML 报告文件：** `D:\wuliziliao\王涛全面健康档案_修正版.html`（37,795 bytes，4 Tab，骚包风格）
 
 ---
 
@@ -372,3 +376,13 @@ BMR/TDEE 数据已修正（旧 1,450/1,950 → ✅ 1,650/2,558）
 | #10 | HTML报告 | ✅ |
 
 **通过率：10/10 ✅**
+
+---
+
+## 📸 截图/日志索引
+
+| 用例 | 证据文件 | 类型 |
+|:----|:---------|:----|
+| TC01~TC08 (AI对话) | `screenshots/execution_log.txt` | 执行日志（含输入/输出/验证） |
+| TC09 (BMR脚本) | `screenshots/test09_bmr_script.log` | 命令行执行日志 |
+| TC10 (HTML报告) | `D:\wuliziliao\王涛全面健康档案_修正版.html` | 生成文件（37,795 bytes） |
