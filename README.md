@@ -47,7 +47,12 @@ weight-loss-skill/
 │   ├── sample_week2.md             # 样本周2（油腻问题周）
 │   └── sample_exercise.md          # 样本运动数据
 ├── tests/                          # 测试记录
-│   └── test_record.md              # 测试环境+步骤+结果
+│   ├── test_record.md              # 测试环境+步骤+结果（含截图索引表）
+│   └── screenshots/                # 执行日志 & HTML报告截图证据
+│       ├── execution_log.txt       # TC01~TC08 AI对话测试记录
+│       ├── test09_bmr_script.log   # BMR脚本实时执行日志
+│       ├── TC10_html_report.html   # HTML报告渲染版（浏览器打开）
+│       └── TC10_generated_report.html # AI实际生成的HTML文件
 ├── iteration/                      # 迭代升级说明
 │   └── iteration_log.md            # 5步迭代法记录（2轮）
 └── README.md                       # 本文件
