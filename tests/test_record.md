@@ -385,4 +385,5 @@ BMR/TDEE 数据已修正（旧 1,450/1,950 → ✅ 1,650/2,558）
 |:----|:---------|:----|
 | TC01~TC08 (AI对话) | `screenshots/execution_log.txt` | 执行日志（含输入/输出/验证） |
 | TC09 (BMR脚本) | `screenshots/test09_bmr_script.log` | 命令行实时执行日志 |
-| TC10 (HTML报告) | [`screenshots/TC10_html_report.html`](screenshots/TC10_html_report.html) | **HTML渲染文件** — 在浏览器打开即可看到完整4Tab骚包风格报告，含BMR 1,650/TDEE 2,558/6维评分/口味画像/下周推荐 |
+| TC10 (HTML报告) | [`screenshots/TC10_html_report.html`](screenshots/TC10_html_report.html) | **渲染版** — 浏览器打开即可见4Tab骚包风格 |
+| TC10 (原始产出) | [`screenshots/TC10_generated_report.html`](screenshots/TC10_generated_report.html) | **AI实际生成的HTML文件** — 37,795 bytes，含完整BMR 1,650/TDEE 2,558/6维评分/口味画像/预算不够模式 |
