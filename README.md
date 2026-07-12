@@ -66,14 +66,14 @@ weight-loss-skill/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/<你的用户名>/weight-loss-skill.git
+git clone https://github.com/0902wangt/Wang-.git
 
 # 将 skill/ 目录链接到 Hermes Skills 目录
 # Windows:
 mklink /D %USERPROFILE%\AppData\Local\hermes\skills\daily-life\weight-loss-skill %CD%\skill
 
 # 或直接复制
-cp -r skill /c/Users/<你的用户名>/AppData/Local/hermes/skills/daily-life/weight-loss-skill
+cp -r skill /c/Users/0902wangt/AppData/Local/hermes/skills/daily-life/weight-loss-skill
 ```
 
 ### 快速开始
