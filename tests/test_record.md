@@ -384,5 +384,5 @@ BMR/TDEE 数据已修正（旧 1,450/1,950 → ✅ 1,650/2,558）
 | 用例 | 证据文件 | 类型 |
 |:----|:---------|:----|
 | TC01~TC08 (AI对话) | `screenshots/execution_log.txt` | 执行日志（含输入/输出/验证） |
-| TC09 (BMR脚本) | `screenshots/test09_bmr_script.log` | 命令行执行日志 |
-| TC10 (HTML报告) | `D:\wuliziliao\王涛全面健康档案_修正版.html` | 生成文件（37,795 bytes） |
+| TC09 (BMR脚本) | `screenshots/test09_bmr_script.log` | 命令行实时执行日志 |
+| TC10 (HTML报告) | [`screenshots/TC10_html_report.html`](screenshots/TC10_html_report.html) | **HTML渲染文件** — 在浏览器打开即可看到完整4Tab骚包风格报告，含BMR 1,650/TDEE 2,558/6维评分/口味画像/下周推荐 |
